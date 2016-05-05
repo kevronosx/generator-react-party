@@ -1,3 +1,5 @@
+Hello
+
 # generator-react-sass-es2015
 > Generate a web app that uses React, Sass, Gulp, Browserify, and ES2015
 
