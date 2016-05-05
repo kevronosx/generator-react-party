@@ -1,11 +1,8 @@
-Hello
-
 # generator-react-party
-> Generate a web app that uses React, Sass, Gulp, Browserify, and ES2015
+> Generate a web app that uses React, Sass, Gulp, Browserify, and ES6
 
 ## Installation
-
-
+> For now, clone the repo, cd into the main folder and run ```bash npm install```
 
 Then generate your new project:
 
