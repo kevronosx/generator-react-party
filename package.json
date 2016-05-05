@@ -4,9 +4,9 @@
   "description": "Generate a web app that uses React, Sass, Gulp, Browserify, and ES2015",
   "homepage": "https://github.com/kevronosx/generator-react-party",
   "author": {
-    "name": "sgbj",
+    "name": "kevronosx",
     "email": "",
-    "url": "https://github.com/sgbj"
+    "url": "https://github.com/kevronosx"
   },
   "files": [
     "generators"
@@ -44,7 +44,7 @@
       "mocha": true
     }
   },
-  "repository": "git@github.com:sgbj/generator-react-sass-es2015.git",
+  "repository": "git@github.com:kevronosx/generator-react-party.git",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"

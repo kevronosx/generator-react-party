@@ -14,7 +14,7 @@ var config = {
   paths: {
     html: 'app/**/*.html',
     js: 'app/**/*.js',
-    bootstrapper: 'app/bootstrapper.js',
+    bootstrapper: 'app/app.js',
     sass: 'app/**/*.scss',
     build: 'build'
   }

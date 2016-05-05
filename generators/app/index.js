@@ -9,7 +9,7 @@ module.exports = yeoman.generators.Base.extend({
 
     // Have Yeoman greet the user.
     this.log(yosay(
-      'Welcome to the stylish ' + chalk.red('react-sass-es2015') + ' generator!'
+      'Welcome to the stylish ' + chalk.red('react-party') + ' generator!'
     ));
 
     var prompts = [/*{
