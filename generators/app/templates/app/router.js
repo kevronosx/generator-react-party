@@ -2,12 +2,12 @@ import React from 'react';
 import CSSTransitionGroup from 'react-addons-css-transition-group';
 import { Router, Route, hashHistory, IndexRoute } from 'react-router';
 // Layouts
-import AppLayout from './components/layout/app-layout';
+import AppLayout from 'components/layout/app-layout';
 // Pages
-import Index from './components/pages/index';
-import About from './components/pages/about';
-import Contact from './components/pages/contact';
-import NoMatch from './components/pages/no-match';
+import Index from 'components/pages/index';
+import About from 'components/pages/about';
+import Contact from 'components/pages/contact';
+import NoMatch from 'components/pages/no-match';
 
 const MainRouter = (
   <Router history={hashHistory}>

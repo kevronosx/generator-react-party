@@ -22,7 +22,6 @@ module.exports = yeoman.generators.Base.extend({
     this.prompt(prompts, function (props) {
       this.props = props;
       // To access props later use this.props.someOption;
-
       done();
     }.bind(this));
   },
@@ -33,8 +32,12 @@ module.exports = yeoman.generators.Base.extend({
       this.destinationPath('package.json')
     );
     this.fs.copy(
-      this.templatePath('gulpfile.js'),
-      this.destinationPath('gulpfile.js')
+      this.templatePath('index.html'),
+      this.destinationPath('index.html')
+    );
+    this.fs.copy(
+      this.templatePath('webpack.config.js'),
+      this.destinationPath('webpack.config.js')
     );
     this.fs.copy(
       this.templatePath('app'),

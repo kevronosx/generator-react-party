@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-// Notice that we've organized all of our routes into a separate file.
-import Router from './router';
-
-// Now we can attach the router to the 'root' element like this:
+// Load Routes
+import Router from 'router';
+// Now we can attach the router to the 'root' element like this, 
+// never attach it to the Body tag!
 ReactDOM.render(Router, document.getElementById('root'));

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default class Index extends React.Component {
+const Index = React.createClass({
   render() {
     return (
       <div>
@@ -11,4 +11,6 @@ export default class Index extends React.Component {
       </div>
     );
   }
-}
+});
+
+export default Index;
